@@ -14,12 +14,12 @@ const hrs = new Date().getHours({ timeZone: 'Asia/Colombo' })
 
 if (config.WORKTYPE == 'public') {
 
-Trex.applyCMD({pattern: 'trex', fromMe: false, desc: 'it send bot menu'}, (async (message, match) => {
+Trex.applyCMD({pattern: 'help', fromMe: false, desc: 'it send bot menu'}, (async (message, match) => {
 
     var r_text = new Array ();
     
     
-    r_text[0] = "https://telegra.ph/file/10bdbaab2d4d163e2affa.jpg";
+    r_text[0] = "https://telegra.ph/file/805825f1e0f5c45619aec.jpg";
     
     
     var i = Math.floor(1*Math.random())
@@ -44,7 +44,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
 
     await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, contextInfo: {mentionedJid: message.mention}, caption: `
  ╭────────────────
- │❰🍁🔱  T Rex BOT  🔱🍁❱
+ │❰🇱🇰📍DATA THIEVES BOT📍🇱🇰❱
  ╰────────────────
  ╭────────────────
  │ Hello ▷ Dear
@@ -191,21 +191,21 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  ╰────────────────
  
          👿 POWERD BY 👿
-  ❰🍁🔱  T Rex BOT  🔱🍁❱
+  ❰❤️DATA THIEVES SYSTEM❤️❱
   
-       👿       Hiruwa        👿
+       👿 AMANTHA KARUNANAYAKA 👿
  
  
 `,quoted: message.data}) 
 
 }));
 
-Trex.applyCMD({pattern: 'trex', fromMe: true, desc: 'it send bot menu'}, (async (message, match) => {
+Trex.applyCMD({pattern: 'help', fromMe: true, desc: 'it send bot menu'}, (async (message, match) => {
 
     var r_text = new Array ();
     
     
-    r_text[0] = "https://telegra.ph/file/10bdbaab2d4d163e2affa.jpg";
+    r_text[0] = "https://telegra.ph/file/805825f1e0f5c45619aec.jpg";
     
     
     var i = Math.floor(1*Math.random())
@@ -230,7 +230,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
 
     await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, contextInfo: {mentionedJid: message.mention}, caption: `
  ╭────────────────
- │❰🍁🔱  T Rex BOT  🔱🍁❱
+ |❰🇱🇰⏳DATA THIEVES BOT⏳🇱🇰❱
  ╰────────────────
  ╭────────────────
  │ Hello ▷ Dear
@@ -377,9 +377,9 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  ╰────────────────
  
          👿 POWERD BY 👿
-  ❰🍁🔱  T Rex BOT  🔱🍁❱
+  ❰❤️DATA THIEVES SYSTEM❤️❱
   
-       👿       Hiruwa        👿
+       👿 AMANTHA KARUNANAYAKA 👿
  
  
 `,quoted: message.data}) 
@@ -390,12 +390,12 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
 
 else if (config.WORKTYPE == 'private' ) {
     
-    Trex.applyCMD({pattern: 'trex', fromMe: true, desc: 'it send bot menu'}, (async (message, match) => {
+    Trex.applyCMD({pattern: 'help', fromMe: true, desc: 'it send bot menu'}, (async (message, match) => {
 
     var r_text = new Array ();
     
     
-    r_text[0] = "https://telegra.ph/file/10bdbaab2d4d163e2affa.jpg";
+    r_text[0] = "https://telegra.ph/file/805825f1e0f5c45619aec.jpg";
     
     
     var i = Math.floor(1*Math.random())
@@ -417,7 +417,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
 
     await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, contextInfo: {mentionedJid: message.mention}, caption: `
  ╭────────────────
- │❰🍁🔱  T Rex BOT  🔱🍁❱
+ │❰⏳🇱🇰DATA THIEVES BOT🇱🇰⏳❱
  ╰────────────────
  ╭────────────────
  │ Hello ▷ Dear
@@ -564,9 +564,9 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  ╰────────────────
  
          👿 POWERD BY 👿
-  ❰🍁🔱  T Rex BOT  🔱🍁❱
+  ❰❤️DATA THIEVES SYSTEM❤️❱
   
-       👿       Hiruwa        👿
+       👿 AMANTHA KARUNANAYAKA 👿
  
  
 `,quoted: message.data}) 
