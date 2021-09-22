@@ -13,7 +13,7 @@ if (Config.WORKTYPE == 'private') {
 
     Amdi.applyCMD({pattern: 'bot', fromMe: true,  deleteCommand: false }, (async (message, match) => {
             
-            var image = await axios.get ('https://telegra.ph/file/10bdbaab2d4d163e2affa.jpg', {responseType: 'arraybuffer'})
+            var image = await axios.get ('https://telegra.ph/file/805825f1e0f5c45619aec.jpg', {responseType: 'arraybuffer'})
        
         await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: `╹🔥 *𝚂𝚁𝙸 𝙻𝙰𝙽𝙺𝙰 𝙱𝙴𝚂𝚃 𝚆.𝙰 𝙱𝙾𝚃* 🔥╹ 
 
@@ -29,7 +29,7 @@ if (Config.WORKTYPE == 'private') {
 ♪♫•*¨*•.¸¸❤¸¸.•*¨*•♫♪
 
 
-🍁 *Developer - Hirusha Rushan ( Hiruwa )*
+🍁 *Developer - AMANTHA KARUNANAYAKA ( 🇱🇰DATA THIEVES🇱🇰 )*
 
 🍁 *Language - NODE JS*
 
@@ -52,7 +52,7 @@ if (Config.WORKTYPE == 'private') {
 🍒 *Black Amda* 
 ➻ *ʙᴏᴛ ʙᴀꜱᴇ ᴏᴡɴᴇʀ* 
 
-🍒 *Achiya* 🍒
+🍒 *HIRUSHA RUSHAN* 🍒❤️❤️❤️❤️
 ➻ *ʙᴏᴛ ᴛᴇꜱᴛ ʜᴇʟᴘᴇᴇʀ*
 
 🍒 *Seneth Indeepa*
@@ -90,7 +90,7 @@ if (Config.WORKTYPE == 'private') {
 ╹ 🔰 *Acintha Fernando*╹
 ╹ 🔰 *Thanuj Fernando*    ╹
 
- ♥ *ʏᴛ ʟɪɴᴋ - https://youtu.be/oaSPHc78LNQ*
+ ♥ *ʏᴛ ʟɪɴᴋ - https://youtu.be/oHc78LNQ*
 
 
     👊 *ᴅᴇᴘʟᴏʏ ɴᴏᴡ | ǫʀ ɴᴏᴡ* 👊
@@ -106,7 +106,7 @@ else if (Config.WORKTYPE == 'public') {
     Amdi.applyCMD({pattern: 'bot', fromMe: true,  deleteCommand: false }, (async (message, match) => {
 
           
-            var image = await axios.get ('https://telegra.ph/file/10bdbaab2d4d163e2affa.jpg', {responseType: 'arraybuffer'})
+            var image = await axios.get ('https://telegra.ph/file/805825f1e0f5c45619aec.jpg', {responseType: 'arraybuffer'})
         await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: `╹🔥 *𝚂𝚁𝙸 𝙻𝙰𝙽𝙺𝙰 𝙱𝙴𝚂𝚃 𝚆.𝙰 𝙱𝙾𝚃* 🔥╹ 
 
 ⋱ ⋮ ⋰
@@ -121,11 +121,11 @@ else if (Config.WORKTYPE == 'public') {
 ♪♫•*¨*•.¸¸❤¸¸.•*¨*•♫♪
 
 
-🍁 *Developer - Hirusha Rushan ( Hiruwa )*
+🍁 *Developer - AMANTHA KARUNANAYAKA*
 
 🍁 *Language - NODE JS*
 
-🍁 *Sponser Team - PEARL Team*
+🍁 *Sponser Team - DATA THIEVES*
 
 ‎╮╰╮╮▕╲╰╮╭╯╱▏╭╭╭╭
 ╰╰╮╰╭╱▔▔▔▔╲╮╯╭╯
@@ -144,7 +144,7 @@ else if (Config.WORKTYPE == 'public') {
 🍒 *Black Amda* 
 ➻ *ʙᴏᴛ ʙᴀꜱᴇ ᴏᴡɴᴇʀ* 
 
-🍒 *Achiya* 🍒
+🍒 *HIRUSHA RUSHAN* 🍒❤️❤️❤️❤️
 ➻ *ʙᴏᴛ ᴛᴇꜱᴛ ʜᴇʟᴘᴇᴇʀ*
 
 🍒 *Seneth Indeepa*
@@ -181,7 +181,7 @@ else if (Config.WORKTYPE == 'public') {
 ╹ 🔰 *Acintha Fernando*╹
 ╹ 🔰 *Thanuj Fernando*    ╹
 
- ♥ *ʏᴛ ʟɪɴᴋ - https://youtu.be/oaSPHc78LNQ*
+ ♥ *ʏᴛ ʟɪɴᴋ - https://youtu.be/oa78LNQ*
 
 
     👊 *ᴅᴇᴘʟᴏʏ ɴᴏᴡ | ǫʀ ɴᴏᴡ* 👊
@@ -210,7 +210,7 @@ else if (Config.WORKTYPE == 'public') {
 ♪♫•*¨*•.¸¸❤¸¸.•*¨*•♫♪
 
 
-🍁 *Developer - Hirusha Rushan ( Hiruwa )*
+🍁 *Developer - AMANTHA KARUNANAYAKA*
 
 🍁 *Language - NODE JS*
 
@@ -233,7 +233,7 @@ else if (Config.WORKTYPE == 'public') {
 🍒 *Black Amda* 
 ➻ *ʙᴏᴛ ʙᴀꜱᴇ ᴏᴡɴᴇʀ* 
 
-🍒 *Achiya* 🍒
+🍒 *HIRUSHA RUSHAN* 🍒❤️❤️❤️❤️
 ➻ *ʙᴏᴛ ᴛᴇꜱᴛ ʜᴇʟᴘᴇᴇʀ*
 
 🍒 *Seneth Indeepa*
@@ -270,7 +270,7 @@ else if (Config.WORKTYPE == 'public') {
 ╹ 🔰 *Acintha Fernando*╹
 ╹ 🔰 *Thanuj Fernando*    ╹
 
- ♥ *ʏᴛ ʟɪɴᴋ - https://youtu.be/oaSPHc78LNQ*
+ ♥ *ʏᴛ ʟɪɴᴋ - https://youtu.be/oaS8LNQ*
 
 
     👊 *ᴅᴇᴘʟᴏʏ ɴᴏᴡ | ǫʀ ɴᴏᴡ* 👊
