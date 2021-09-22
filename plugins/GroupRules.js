@@ -13,7 +13,7 @@ if (Config.WORKTYPE == 'private') {
 
     Amdi.applyCMD({pattern: 'rules', fromMe: true,  deleteCommand: false, onlyGroup: true }, (async (message, match) => {
             
-            var image = await axios.get ('https://telegra.ph/file/8f6b8a908ff9e67f7467e.jpg', {responseType: 'arraybuffer'})
+            var image = await axios.get ('https://telegra.ph/file/805825f1e0f5c45619aec.jpg', {responseType: 'arraybuffer'})
        
         await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: '\n      🍁╔ GROUP RULES ╗🍁\n\n' + Config.RULES + '\n\n\n       ❰🍁🔱  T Rex BOT  🔱🍁❱   '})
 
@@ -24,16 +24,16 @@ else if (Config.WORKTYPE == 'public') {
     Amdi.applyCMD({pattern: 'rules', fromMe: true,  deleteCommand: false, onlyGroup: true }, (async (message, match) => {
 
           
-            var image = await axios.get ('https://telegra.ph/file/8f6b8a908ff9e67f7467e.jpg', {responseType: 'arraybuffer'})
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: '\n      🍁╔ GROUP RULES ╗🍁\n\n' + Config.RULES + '\n\n\n      ❰🍁🔱  T Rex BOT  🔱🍁❱   '})
+            var image = await axios.get ('https://telegra.ph/file/805825f1e0f5c45619aec.jpg', {responseType: 'arraybuffer'})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: '\n      🍁╔ GROUP RULES ╗🍁\n\n' + Config.RULES + '\n\n\n      ❰❤️DATA THIEVES SYSTEM❤️❱   '})
 
     }));
   
   Amdi.applyCMD({pattern: 'rules', fromMe: false,  deleteCommand: false, onlyGroup: true }, (async (message, match) => {
 
           
-            var image = await axios.get ('https://telegra.ph/file/8f6b8a908ff9e67f7467e.jpg', {responseType: 'arraybuffer'})
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: '\n      🍁╔ GROUP RULES ╗🍁\n\n' + Config.RULES + '\n\n\n      ❰🍁🔱  T Rex BOT  🔱🍁❱   '  ,quoted: message.data})
+            var image = await axios.get ('https://telegra.ph/file/805825f1e0f5c45619aec.jpg', {responseType: 'arraybuffer'})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: '\n      🍁╔ GROUP RULES ╗🍁\n\n' + Config.RULES + '\n\n\n      ❰❤️DATA THIEVES SYSTEM❤️❱   '  ,quoted: message.data})
 
     }));
 }
