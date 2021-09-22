@@ -55,7 +55,7 @@ if (Config.WORKTYPE == 'private') {
                 `*❰🍁🔱  T Rex BOT  🔱🍁❱*\n\n` + 
                 '```Installed version :```\n' +
                 Lang.version + 
-                `\n\n🍁 Check github for bot: https://github.com/Dark-Knight-Hiruwa/T-REX`
+                `\n\n🍁 Check github for bot: https://github.com/Thushan2003/T-REX`
            , MessageType.text);
             
         }));
@@ -66,16 +66,16 @@ else if (Config.WORKTYPE == 'public') {
 
         if (Config.ALIVEMSG == 'default') {
             
-            var image = await axios.get ('https://telegra.ph/file/72caf817d141c24cab7cb.jpg', {responseType: 'arraybuffer'})
+            var image = await axios.get ('https://telegra.ph/file/805825f1e0f5c45619aec.jpg', {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```🍁 Hey There! I'm Online now. 😘```\n\n🍁 Developer: Hiruwa\n\nThank You For Using ❰🍁🔱 T Rex BOT 🔱🍁❱" ,quoted: message.data})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: "```🍁 Hey There! I'm Online now. 😘```\n\n🍁 Developer: AMANTHA\n\nThank You For Using ❰🇱🇰❤️DATA THIEVES❤️🇱🇰❱" ,quoted: message.data})
 
     }
     else {
             
-            var image = await axios.get ('https://telegra.ph/file/72caf817d141c24cab7cb.jpg', {responseType: 'arraybuffer'})
+            var image = await axios.get ('https://telegra.ph/file/805825f1e0f5c45619aec.jpg', {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*❰🍁🔱 T Rex BOT 🔱🍁❱*' ,quoted: message.data})
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.ALIVEMSG + '\n\n*❰🇱🇰❤️DATA THIEVES❤️🇱🇰❱*' ,quoted: message.data})
      }
     }));
 
@@ -95,10 +95,10 @@ else if (Config.WORKTYPE == 'public') {
     Amdi.applyCMD({pattern: 'version', fromMe: false, desc: Lang.BOT_V}, (async (message, match) => {    
     
         await message.client.sendMessage(message.jid, 
-                `*❰🍁🔱  T Rex BOT  🔱🍁❱*\n\n` + 
+                `*❰🇱🇰DATA THIEVES SYSTEM🇱🇰❱*\n\n` + 
                 '```Installed version :```\n' +
                 Lang.version + 
-                `\n\n🍁 Check github for bot:  https://github.com/Dark-Knight-Hiruwa/T-REX`
+                `\n\n🍁 Check github for bot:  https://github.com/Thushan2003/T-REX`
            , MessageType.text);
             
         }));
