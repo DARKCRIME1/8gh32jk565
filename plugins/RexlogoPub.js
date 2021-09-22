@@ -8,19 +8,19 @@ const need = "*type some word after command 🍁"
 if (Config.WORKTYPE == 'public') {
    
    
-   Trex.applyCMD({ pattern: 'rlpack', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+   Trex.applyCMD({ pattern: 'logo', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         var ttinullimage = await axios.get(`https://telegra.ph/file/10bdbaab2d4d163e2affa.jpg`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  `╔══════════════════════
-║❌ 🍁*REX LOGO PACK 1*🍁 ❌
+║❌ 🍁*DATA THIEVES LOGO PACK 1*🍁 ❌
 ╠══════════════════════
 ║
 ║   `+Config.CAPTION+`
 ║
 ╠═➢ 🍁Cmd: *.phub*
 ╠══➢ 📛 Dec: *Send pornhub logo*
-╠═➢ 🍁 Ex: *.phub T-Rex/Hiruwa*
+╠═➢ 🍁 Ex: *.phub T-Rex/THUSHAN*
 ║
 ╠═➢ 🍁 Cmd: *.stone*
 ╠══➢ 📛 Dec: *Send stone like logo*
