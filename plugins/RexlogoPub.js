@@ -98,8 +98,8 @@ if (Config.WORKTYPE == 'public') {
 ╠══➢ 📛  Dec: *Send Glue logo*
 ╠═➢ 🍁 Ex: *.glue T-REX*
 ║
-║      ╔═🍁 T-REX BOT 🍁═╗
-║        ╚ ENJOY WITH US ╝
+║      ╔═🍁DATA THIEVES BOT🍁═╗
+║         ╚ ENJOY  WITH US ╝
 ╚══════════════════════`,quoted: message.data})
 
     }));
