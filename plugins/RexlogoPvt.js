@@ -8,29 +8,29 @@ const need = "*type some word after command 🍁"
 if (Config.WORKTYPE == 'private') {
    
    
-   Trex.applyCMD({ pattern: 'rlpack', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
+   Trex.applyCMD({ pattern: 'logo', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
-        var ttinullimage = await axios.get(`https://telegra.ph/file/10bdbaab2d4d163e2affa.jpg`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://telegra.ph/file/805825f1e0f5c45619aec.jpg`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  `╔══════════════════════
-║❌ 🍁*REX LOGO PACK 1*🍁 ❌
+║❌ 🍁*LOGO PACK 2*🍁 ❌
 ╠══════════════════════
 ║
 ╠═➢ 🍁Cmd: *.phub*
 ╠══➢ 📛 Dec: *Send pornhub logo*
-╠═➢ 🍁 Ex: *.phub T-Rex/Hiruwa*
+╠═➢ 🍁 Ex: *.phub T-Rex/data*
 ║
 ╠═➢ 🍁 Cmd: *.stone*
 ╠══➢ 📛 Dec: *Send stone like logo*
-╠═➢ 🍁Ex: *.stone T-REX/Hiruwa*
+╠═➢ 🍁Ex: *.stone T-REX/data*
 ║
 ╠═➢ 🍁Cmd: *.glitch*
 ╠══➢ 📛 Dec: *Send glitch logo*
-╠═➢ 🍁 Ex: *.glitch T-Rex/Hiruwa*
+╠═➢ 🍁 Ex: *.glitch T-Rex/data*
 ║
 ╠═➢ 🍁Cmd: *.space*
 ╠══➢ 📛 Dec: *Send space logo*
-╠═➢ 🍁Ex: *.space T-Rex/Hiruwa*
+╠═➢ 🍁Ex: *.space T-Rex/data*
 ║
 ╠═➢ 🍁Cmd: *.blood*
 ╠══➢ 📛 Dec: *Send blood hor logo*
