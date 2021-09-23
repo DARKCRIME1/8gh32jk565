@@ -13,16 +13,16 @@ if (Config.LANG == 'SI') {
    await message.client.sendMessage(message.jid,alive, MessageType.audio, {mimetype: 'audio/mp4', ptt:true,quoted: message.data})
   }));
   
-  Asena.applyCMD({ pattern: 'atrex', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+  Asena.applyCMD({ pattern: 'menu', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '' ) return await message.sendMessage(ll);
 
-        var ttinullimage = await axios.get(`https://telegra.ph/file/10bdbaab2d4d163e2affa.jpg`, { responseType: 'arraybuffer' })
+        var ttinullimage = await axios.get(`https://telegra.ph/file/805825f1e0f5c45619aec.jpg`, { responseType: 'arraybuffer' })
         
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  `╔═══════════════════════╗
 
-         °❰🍁🔱  T Rex BOT  🔱🍁❱°
+         °❰🐱‍👤🐱‍👓DATA THIIEVES🐱‍👓🐱‍👤❱°
 
 ═════════════════════════
 
@@ -34,13 +34,13 @@ if (Config.LANG == 'SI') {
 
 *➢ විස්තරය:* °Admin විධාන ලැයිස්තුව ලබා ගැනීමට°
 
-*🍁 විධානය:* °.trex°
+*🍁 විධානය:* °.help°
 
 *➢ විස්තරය:* °සියලමු විධාන°
 
-*🍁 විධානය;* °.rlpack°
+*🍁 විධානය;* °.logo°
 
-*➢ විස්තරය:* °T-REX ලොගෝ එකතුව 01°
+*➢ විස්තරය:* °data thieves ලොගෝ එකතුව 01°
 
 *🍁 විධානය:* °.rex°
 
