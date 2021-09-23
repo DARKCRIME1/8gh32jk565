@@ -62,7 +62,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  │
  │▷ .help
  │▷ .alive
- │▷ .atrex [ advance menu ]
+ │▷ .menu [ advance menu ]
  │▷ .admin [ for owner ]
  │▷ .version
  │
@@ -246,9 +246,9 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  │       🍁👿 BOT 👿🍁
  │        ──────────
  │
- │▷ .trex
+ │▷ .help
  │▷ .alive
- │▷ .atrex [ advance menu ]
+ │▷ .menu [ advance menu ]
  │▷ .admin [ for owner ]
  │▷ .version
  │
@@ -264,7 +264,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  ╭────────────────
  │ 🍁👿 Text To Img 👿🍁
  │
- │▷ .rlpack
+ │▷ .logo
  │▷ .ffpack
  │▷ .ttp { text }
  │▷ .dttp { text }
