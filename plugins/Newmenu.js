@@ -44,7 +44,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
 
     await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, contextInfo: {mentionedJid: message.mention}, caption: `
  ╭────────────────
- │❰🇱🇰📍DATA THIEVES BOT📍🇱🇰❱
+ │❰🇱🇰DATA THIEVES BOT🇱🇰❱
  ╰────────────────
  ╭────────────────
  │ Hello ▷ Dear
@@ -60,7 +60,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  │       🍁👿 BOT 👿🍁
  │        ──────────
  │
- │▷ .trex
+ │▷ .help
  │▷ .alive
  │▷ .atrex [ advance menu ]
  │▷ .admin [ for owner ]
@@ -78,8 +78,8 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  ╭────────────────
  │ 🍁👿 Text To Img 👿🍁
  │
- │▷ .rlpack
- │▷ .ffpack
+ │▷ .logo
+ │▷ .logos
  │▷ .ttp { text }
  │▷ .dttp { text }
  │▷ .trumpsay { text }
