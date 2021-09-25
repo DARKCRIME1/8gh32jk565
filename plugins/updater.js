@@ -32,7 +32,7 @@ Amdi.applyCMD({pattern: 'up$', fromMe: true,  deleteCommand: false,  desc: Lang.
         var degisiklikler = Lang.NEW_UPDATE;
         commits['all'].map(
             (commit) => {
-                degisiklikler += '🍁 ➢ [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' \n <' + "Hiruwa" + '>\n\n';
+                degisiklikler += '🍁 ➢ [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' \n <' + "Amantha" + '>\n\n';
             }
         );
         
