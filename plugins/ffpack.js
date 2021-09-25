@@ -9,7 +9,7 @@ const Ln = "  *❰🍁⏳DATA THIEVES SYSTEM🔱🍁❱* "
 
 if (Config.WORKTYPE == 'public') {
     
-      Asena.applyCMD({pattern: 'jsjsnsjsjsnsbsjks', fromMe: false, desc: Ln,}, (async (message, match) => {
+      Asena.applyCMD({pattern: 'ffpack', fromMe: false, desc: Ln,}, (async (message, match) => {
 
     await message.client.sendMessage(
   
