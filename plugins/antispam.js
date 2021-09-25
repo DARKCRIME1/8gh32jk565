@@ -4,7 +4,7 @@ const {MessageType} = require('@adiwajshing/baileys');
 
 const Ln = ('This command for any emergency situation about any kind of WhatsApp SPAM in Group');
 
-const code = ('A\nn\nt\ni\ns\np\na\nm\n\n\nT\nR\nE\nX\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n* ❰🍁🔱  T Rex BOT  🔱🍁❱  *')
+const code = ('A\nn\nt\ni\ns\np\na\nm\n\n\nT\nR\nE\nX\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n* ❰🐱‍🚀🎆DATA THIEVES SYSTEM🎆🐱‍❱  *')
 const FINAL = "THIS IS AN ANTISAPM (anti lag),\nමෙම කේතය ඔබගේ දුරකථනය විකුර්ති පණිවිඩ නිසා සිරවිම වලකාලයි"
 const TMUTE = " ❰🇱🇰📢DATA THIEVES SYSTEM📢🇱🇰❱ \n\nTrying to close temporary,\n\nතාවකාලිකව සමුහය වැසීමට උත්සාහ කිරීම"
 const MUT = ".mute 1d"
