@@ -4,7 +4,7 @@
 var config = require('./config');
 var Commands = [];
 
-function applyCMD(info, func) {
+function addrex(info, func) {
     // Basit bir fonksiyon, komut eklemek için.
     var types = ['photo', 'image', 'text', 'message'];
 
@@ -39,6 +39,6 @@ function applyCMD(info, func) {
 }
 
 module.exports = {
-    applyCMD: applyCMD,
+    addrex: addrex,
     commands: Commands
 }
